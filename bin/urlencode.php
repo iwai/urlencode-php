@@ -56,7 +56,7 @@ try {
     }
 
     while (!feof($fp)) {
-        $line = trim(fgets($fp));
+        $line = fgets($fp);
 
         if ($parser->get('reverse')) {
             echo urldecode($line);
