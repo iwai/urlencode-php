@@ -1,0 +1,19 @@
+{
+  "chmod": "0755",
+  "files": [
+    "vendor/autoload.php"
+  ],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": [ "tests" ],
+      "in": [
+        "vendor/chh",
+        "vendor/composer"
+      ]
+    }
+  ],
+  "main": "bin/urlencode.php",
+  "output": "bin/urlencode.phar",
+  "stub": true
+}

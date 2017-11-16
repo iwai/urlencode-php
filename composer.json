@@ -1,0 +1,9 @@
+{
+    "name": "iwai/urlencode-php",
+    "authors":[
+        { "name":"Yuji Iwai", "email":"iwai.ug@gmail.com" }
+    ],
+    "require": {
+        "chh/optparse": "0.1.*"
+    }
+}
